@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 2px;
+}
+.link {
+    /* padding: 20px; */
+    margin: 10px !important;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+.form-inline {
+    margin: 10px !important;
+}
+.link li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.link li a {
+        display: block;
+        padding: 10px;
+        /* background-color: #dddddd; */
+    
+}
+.row-body {
+    align-items: center;
+    /* min-height: 100vh; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-top: 10vh;
+}
+.side-text {
+    font-family: 'Font Awesome 5 Free';
+}
+.side-text button {
+    padding: 20px 100px;
+    border-radius: 20px;
+}
+.card-2 {
+    border-radius: 15px;
+    /* background-color: #f9f9f9; */
+    box-shadow: -9.1159px -18.2318px 24.3091px #fff, 9.1159px 18.2318px 24.3091px #eceef1;
+}
+.header {
+    font-size: 18px;
+}
+.logo {
+    color: blueviolet !important;
+    font-weight: 500;
+    font-size: 40px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signIn {
+    color: black !important;
+    border: 1px solid red;
+    border-radius: 10px;
+    /* background-color: lightgrey; */
+    margin-right: 20px;
+    width: 100%;
+    /* box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); */
+    /* background-color: #e7e7e7; */
+    background-color: #ffffff;
+
+    text-align: center;
+}
+
+.signUp {
+    color: black !important;
+    border: 1px solid red;
+    border-radius: 10px;
+    /* background-color: lightgrey; */
+    margin-left: 20px;
+    width: 100%;
+    /* box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); */
+    /* background-color: #e7e7e7; */
+    background-color: #ffffff;
+    /* padding: 5px; */
+    text-align: center;
+}
+a:hover {
+    text-decoration: none !important;
+}
